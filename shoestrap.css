@@ -1,0 +1,112 @@
+#nav-container{
+  background-color: rgb(165, 82, 82);
+}
+
+.nav-list {
+  height: 100%;
+  margin: 0%;
+}
+.navis {
+  margin-right: 2%;
+  height: 100%;
+  width: 16.666666667%;
+  float: left;
+  margin: 0;
+}
+
+#home {
+  float: left;
+  margin-right: 2%;
+  font-family: fantasy;
+}
+
+.navis:hover {
+  background:  rgb(189, 133, 133);
+  color: rgb(71, 64, 64);
+}
+
+.navis a{
+  height: 100%;
+  text-decoration: none;
+  color:black;
+}
+
+
+
+.col-1 {
+    float: left;
+    width: 8.33333333%;
+  }
+
+
+.col-2 {
+   float: left;
+  width: 16.666666667%;
+}
+
+.col-3 {
+  float: left;
+ width: 25%;
+}
+
+.col-4 {
+  float: left;
+ width: 33.33333333333333%;
+}
+
+.col-5 {
+  float: left;
+ width: 41.666666666667%;
+}
+
+.col-6 {
+  float: left;
+ width: 50%;
+}
+
+.col-7 {
+  float: left;
+ width: 58.333333333%;
+}
+
+.col-8 {
+  float: left;
+ width: 66.666666666%;
+}
+
+.col-9 {
+  float: left;
+ width: 75%;
+}
+
+.col-10 {
+  float: left;
+ width: 83.333333333%;
+}
+
+.col-11 {
+  float: left;
+ width: 91.666666666%;
+}
+
+.col-12 {
+  float: left;
+ width: 100%;
+}
+
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .row:before {
+    display: table;
+    content: "";
+  }
+  
+  .row:after {
+    display: table;
+    content: "";
+    clear: both;
+  } 
